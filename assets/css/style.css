@@ -1,8 +1,38 @@
 body {
-    background-color: lightblue;
+    background-color: black;
   }
   
   h1 {
-    color: navy;
+    text-align: center;
+    color: white;
     margin-left: 20px;
+    position: center;
+  }
+  section {
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+    position: center;
+  }
+  .profile-photo {
+    position: center;   
+    border-style: solid;
+    border-color: rgb(59, 58, 58);
+    border-width: 10px; 
+    border-radius: 25% 25% 25% 25%;
+    box-shadow: 10px 10px 5px white ;
+  }
+  h2 {
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+    position: center;
+  }
+  .nav {
+    position: center;
+  }
+
+  .content {
+    color: white;
+    text-align: left;
   }
