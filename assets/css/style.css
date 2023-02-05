@@ -28,9 +28,11 @@ body {
     margin-left: 20px;
     position: center;
   }
-  .nav {
-    position: center;
-  }
+ .links li {
+    display: inline;
+    padding-left: 50px;
+    text-align: left;
+ }
 
   .content {
     color: white;
