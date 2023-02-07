@@ -1,22 +1,9 @@
 body {
-    margin: 0;
     background-color: black;
     /*instert background image*/
+    /*could not get image to fit the background*/
 }
-/*This is my main header "JOSELYN ZUNIGA"*/
 
-/* My profile picture*/
-.img {
-    border: solid;
-    border-color: black;
-    border-width: 15px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
 /* My navagation links - About Me, Projects, Contact Info */
 .links li {
 
@@ -27,13 +14,14 @@ body {
     justify-content: space-evenly;
 
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Courier New';
-    padding-left: 50px; 
+    padding-left: 210px; 
     padding-top: 30px;  
 
     
 }
+
 /*This will make my links hightlight when I hoover over them*/
 .links a:hover {
     text-shadow: 5px 5px 5px gray;
@@ -45,9 +33,35 @@ a:visited{
     text-decoration: none;
     color:  gray;
 }
+section {
+    font-family: 'Courier New';
+    color: white;
+    flex: 4;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+/* My profile picture*/
+.profile-photo {
+    display: flex;
+    padding: 10px;
+}
+
+/*This is my main header "JOSELYN ZUNIGA"*/
+.text {
+    font-family: 'Courier New';
+    color: white;
+    
+    
+}
+
 /* Content are my sections on my page. My About Me, Projects, and Contact Info */
 /* About Me section. Need to make the side margins smaller*/
 .about-me {
+    font-family: 'Courier New';
     flex: 4;
     color: white;
     padding: 50px;
@@ -60,6 +74,7 @@ a:visited{
     
 /* My Project section. Need to make the side margins smaller*/
 .projects {
+    font-family: 'Courier New';
     color: white;
     flex: 4;
     padding: 50px;
@@ -71,6 +86,7 @@ a:visited{
 
 /* My Contact Info section. Need to make the side margins smaller*/
 .contact-info {
+    font-family: 'Courier New';
     flex: 4;
     color: white;
     padding: 50px;
