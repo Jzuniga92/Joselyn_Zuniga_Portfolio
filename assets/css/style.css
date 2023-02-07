@@ -3,22 +3,35 @@ body {
     background-color: black;
     /*instert background image*/
 }
-   
-/*This is my main header "JOSELYN ZUNIGA"*/
-h1 {
-    color: white;
-    text-align: center;
-    font-size: 6em;
+   .head {
     margin-top: 10px;
-    margin-bottom: 50px;
-}
+    margin-bottom: 20px;
+   }
+/*This is my main header "JOSELYN ZUNIGA"*/
+.container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  img {
+    max-width: 100%
+  }
+  
+  .image {
+    flex-basis: 40%
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
 /* My profile picture*/
 .center {
     border: solid;
-    border-color: gray;
+    border-color: black;
     border-width: 15px;
-    border-radius: 50% 50% 50% 50%;
-    box-shadow: 10px 10px 10px gray;
     margin-top: 20px;
     margin-bottom: 50px;
     display: flex;
@@ -28,11 +41,17 @@ h1 {
 }
 /* My navagation links - About Me, Projects, Contact Info */
 .links li {
+
+    color:  rgb(13, 172, 143);;
+    flex: 4;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
     text-decoration: none;
-    display: inline-block;
     font-size: 3em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 220px; 
+    padding-left: 200px; 
     padding-top: 30px;  
 
     
@@ -40,22 +59,15 @@ h1 {
 /*This will make my links hightlight when I hoover over them*/
 .links a:hover {
     text-shadow: 5px 5px 5px gray;
-    color: teal;
+    color: rgb(13, 172, 143);
 
 }
 /*This will make my links go back to normal and keep them from showing up as visted sites */
 a:visited{
     text-decoration: none;
-    color: teal;
+    color:  gray;
 }
 /* Content are my sections on my page. My About Me, Projects, and Contact Info */
-.content {
-    padding-top: 300px;
-    font-size: 2em;
-    padding: 40px 50px;
-    color: white;
-    
-}
 /* About Me section. Need to make the side margins smaller*/
 .about-me {
     flex: 4;
@@ -65,24 +77,13 @@ a:visited{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
+    
 }
     
-
 /* My Project section. Need to make the side margins smaller*/
-.
-
-
-Projects {
+.projects {
     color: white;
-}
-
-img {
-    max-width: 25%;
-}
-/* My Contact Info section. Need to make the side margins smaller*/
-.Contact-info {
     flex: 4;
-    color: white;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -90,7 +91,39 @@ img {
     align-items: flex-start;
 }
 
-.projects-container{
-    display: flex;
+/* My Contact Info section. Need to make the side margins smaller*/
+.contact-info {
+    flex: 4;
+    color: white;
+    padding: 50px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
+.links-contact {
+    color: white;
+    flex: 4;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    text-decoration: none;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 200px; 
+    padding-top: 30px;  
+}
+
+.footer {
+    flex: 4;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-family: 'Arial, Helvetica, sans-serif';
+
+}
