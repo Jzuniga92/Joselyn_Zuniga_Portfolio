@@ -10,8 +10,12 @@ I’m currently working on [Order of the Pheonix](http://127.0.0.1:5500/Joselyn_
  ![Alt text](assets/images/IMG_6553.jpeg)
  
  I’m looking to collaborate on [Venture](5500/Joselyn_Zuniga_Portfolio/index.html#Travel)
+
 ![Alt text](assets/images/IMG_6554.jpeg)
+
  I’m looking for help with [Next Level](http://127.0.0.1:5500/Joselyn_Zuniga_Portfolio/index.html#Fitness)
+
+![Alt text](assets/images/IMG_6556.jpeg)
 
 Contact Information:
 
