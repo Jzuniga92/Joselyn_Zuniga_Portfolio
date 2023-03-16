@@ -17,6 +17,10 @@ I’m currently working on [Order of the Pheonix](http://127.0.0.1:5500/Joselyn_
 
 ![Alt text](assets/images/IMG_6556.jpeg)
 
+Completed Projects [Netflix and Chill](https://jzuniga92.github.io/Netflix-and-Chill/)
+
+![Alt text](assets/images/Screenshot%202023-03-15%20at%202.23.19%20AM.png)
+
 Contact Information:
 
  All of my projects are available at [https://github.com/Jzuniga92](https://github.com/Jzuniga92)
